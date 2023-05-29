@@ -1,0 +1,340 @@
+body {
+    font-style: arial verdana sans-serif;
+    font-size: 1em;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 4px;
+    margin-top: 3px;
+    padding: 0;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*header style*/
+#header, h1 a {
+    background-color: rgb(0, 102, 255);
+    padding: 0.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.hMenu {
+    display: none;
+}
+
+h1 {
+    font-family: "Courier";
+    font-size: 3.5em;
+    margin: 0;
+    font-variant: small-caps;
+}
+
+#header h2 {
+    font-variant: small-caps;
+}
+
+#header img {
+	float: left;
+	max-width: 8.5em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	border: 2px solid white;
+}
+
+/*no underline for links*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*path*/
+#path {
+    background-color: rgb(228, 192, 92);
+    font-size: 1.1em;
+    font-variant: small-caps;
+    padding: 8px;
+}
+
+/*navigation menu*/
+#skipNav {
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+}
+
+
+#nav {
+	position: relative;
+	width: 120px;
+	font-size: 1.1em;
+	font-variant: small-caps;
+	float: left;
+	background-color: rgb(228, 228, 228);	
+	border-radius: 0 0 10px 10px
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li a, li.active {
+    display: block;
+    padding: 1em;
+    color: none ;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#nav li:first-child {
+    border-radius: 0 0 5px 5px;
+}
+
+li.active { 
+    background-color: white;
+    color: #dd0000;
+}
+
+#nav li a:hover {
+    background-color: rgb(0, 102, 255) ;
+    color: white;
+}
+
+#corpo {
+    margin-left: 120px;
+	font-family: "arial";
+	border-left: 1px solid black;
+}
+
+#corpo h2 {
+    margin-top: 0.6em;
+    font-size: 2em;
+    margin-bottom: 0.3em;
+	text-align: center;
+	color: rgb(0, 102, 255);
+}
+
+#corpo h3 {
+    margin-top: 0.6em;
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+    text-align: left;
+    color: rgb(0, 102, 255);
+    margin-left: 6%;
+}
+
+#corpo h4 {
+    font-weight: bold;
+    margin-bottom: 0.8em;
+    color: rgb(0, 102, 255);
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-left: 3%;
+}
+
+#corpo ul {
+    margin-top: 0;
+}
+
+#corpo img {
+    max-width: 70%;
+	margin: auto;
+	display: block;
+    margin-bottom: 3%;
+    margin-top: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 21px 0 rgba(0, 0, 0, 0.29);
+}
+	
+#corpo p, dt, dd {
+    margin-left: 6%;
+    margin-right: 6%;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+    margin-top: 0.3em;
+}
+
+.marginsLeft {
+    margin-right: 6%;
+}
+
+#corpo li {
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+}
+
+#corpo dt {
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 1.1em;
+	color: rgb(0, 102, 255);
+}
+
+ #logout, #login {
+    float: right;
+    margin-right: 2%;
+}
+
+#footer {
+    text-align: right;
+    clear: both;
+    position: relative;
+    bottom: 7.5%;
+    left: 0;
+    padding: 15px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+	color:white;
+}
+
+#footer img {
+	float: left;
+    margin-right: 0.7em;
+}
+
+/* login e form */
+
+#loginForm {
+    display: block;
+    margin: auto;
+    width: 40%;
+    position: relative;
+    /*border: 2px solid rgb(0, 102, 255); */
+}
+
+#loginForm label {
+    margin-top: 3%;
+}
+
+#loginForm input {
+    font-size: 1em;
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+    padding: 1.5%;
+    background-color: rgb(248, 210, 104);
+}
+
+#loginForm label {
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#loginForm input[type="submit"] {
+    margin-top: 5%;
+    margin-left: 1.5%;
+}
+
+.error {
+    color: #dd0000;
+}
+
+fieldset {
+    border: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+#prenotazione {
+    display: inline-block;
+    margin-left: 3.4em;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.2em;
+    border: 3px solid rgb(0, 102, 255);
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+#prenotazione:hover {
+    color: #fff;
+    background-color: rgb(0, 102, 255);
+}
+
+#prenotationForm {
+    position: relative;
+}
+
+#prenotationForm label {
+    margin-top: 3%;
+}
+
+#prenotationForm input {
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.5%;
+    background-color: rgb(248, 210, 104);
+}
+
+#prenotationForm label {
+    display: block;
+    margin-top: 2%;
+}
+
+#prenotationForm input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+#prenotationForm select {
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.5%;
+    background-color: rgb(248, 210, 104);
+}
+
+.formProcessed {
+    color: red;
+    font-weight: bold; 
+    font-size: 1.5em;
+}
+
+
+/*Google Maps*/
+
+#map {
+    margin: auto;
+    height: 400px;
+    width: 88%;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+@media screen and (max-width: 840px) {
+    body {
+        width: 100%;
+    }
+    #header img {
+        display: none;
+    }
+
+    #affiliation {
+        display: none;
+    }
+
+    #loginForm, #prenotationForm input {
+        width: 90%;
+    }
+} 
